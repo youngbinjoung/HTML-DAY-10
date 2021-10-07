@@ -1,0 +1,37 @@
+.hello{
+   width:500px;
+   height: 200px;
+   background-color: red;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 200px;
+   font-size:50px;
+   perspective: 1000px;
+}
+
+.hello>span{
+    display:inline-block;
+    opacity: 0;
+    transform:rotateY(60deg);
+    transition:1s;
+}
+
+.hello:hover>span{
+    opacity: 1;
+    transform:rotateY(0deg);
+}
+.hello>.hello1{
+    transition-delay: 0.5s;
+}
+.hello>.hello2{
+    transition-delay: 0.6s;
+}
+.hello>.hello3{
+    transition-delay: 0.7s;
+}
+.hello>.hello4{
+    transition-delay: 0.8s;
+}
+.hello>.hello5{
+    transition-delay: 0.9s;
+}
